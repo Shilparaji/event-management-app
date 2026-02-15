@@ -1,9 +1,8 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://event-management-app-z1ly.onrender.com/api',
-  headers: {
-    'Content-Type': 'application/json'
+baseURL: '/api',
+  headers: {'Content-Type': 'application/json'
   }
 });
 

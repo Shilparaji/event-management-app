@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/api/:path*", "destination": "https://event-management-app-z11y.onrender.com/api/:path*" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
