@@ -11,14 +11,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'http://localhost:5174',
-    'https://event-management-app-silk.vercel.app'
-  ],
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 
 // Request logging (development)
